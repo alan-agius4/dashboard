@@ -6,12 +6,8 @@
     "target": "es5",
     "types": ["node"]
   },
-  "files": [
-    "../src/app/frontend/index.ts",
-    "../src/app/frontend/polyfills.ts"
-  ],
   "includes": [
-    "../src/app/frontend/**/*.d.ts"
+    "../src/app/frontend/**/*"
   ],
   "lib": ["es2017", "dom"]
 }
