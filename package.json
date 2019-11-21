@@ -53,7 +53,7 @@
     "fix:license": "gulp update-license-headers",
     "fix:i18n": "ng xi18n --outFile ../i18n/messages.xlf && aio/scripts/xliffmerge.sh",
     "clean": "rm -rf .go_workspace .tmp coverage dist npm-debug.log",
-    "postversion": "node aio/scripts/version.js",
+    "postversion": "node aio/scripts/version.js"
   },
   "husky": {
     "hooks": {
