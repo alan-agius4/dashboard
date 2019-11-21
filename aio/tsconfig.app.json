@@ -3,10 +3,14 @@
   "compilerOptions": {
     "outDir": "../out-tsc/app",
     "baseUrl": "../src/app/frontend",
+    "module": "es6",
     "target": "es5",
     "types": ["node"]
   },
-  "includes": [
+  "exclude": [
+    "../src/app/frontend/**/*.spec.ts"
+  ],
+  "include": [
     "../src/app/frontend/**/*"
   ],
   "lib": ["es2017", "dom"]
