@@ -10,5 +10,8 @@
     "../src/app/frontend/index.ts",
     "../src/app/frontend/polyfills.ts"
   ],
+  "includes": [
+    "../src/app/frontend/**/*.d.ts"
+  ],
   "lib": ["es2017", "dom"]
 }
