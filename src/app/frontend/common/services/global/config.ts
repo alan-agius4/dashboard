@@ -17,7 +17,6 @@ import {Injectable} from '@angular/core';
 import {AppConfig} from '@api/backendapi';
 import {VersionInfo} from '@api/frontendapi';
 import {Observable} from 'rxjs/Observable';
-import {version} from '../../../environments/version';
 
 @Injectable()
 export class ConfigService {
@@ -49,6 +48,6 @@ export class ConfigService {
   }
 
   getVersionInfo(): VersionInfo {
-    return version;
+    return {} as any;
   }
 }
