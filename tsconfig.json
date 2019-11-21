@@ -12,8 +12,8 @@
       "@api/*": ["typings/*"]
     },
     "outDir": ".tmp/out-tsc",
-    "target": "esnext",
-    "module": "es6",
+    "target": "es2015",
+    "module": "esnext",
     "moduleResolution": "node",
     "sourceMap": true,
     "strict": false,
